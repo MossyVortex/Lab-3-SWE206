@@ -11,7 +11,9 @@ public class InsertionSort {
             array[i+1] = key;  
         }  
     }  
-       
+    public static void selction(int[] arr){
+        insertionSort(arr);
+    }     
     public static void main(String a[]){    
         int[] arr1 = {9,14,3,2,43,11,58,22};    
         System.out.println("Before Insertion Sort");    
